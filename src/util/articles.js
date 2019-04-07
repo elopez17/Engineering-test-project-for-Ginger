@@ -3,7 +3,7 @@ import $ from 'jquery';
 export const getArticles = () => {
   let deferred = $.Deferred();
   $.ajax({
-    url: "http://export.arxiv.org/api/query?search_query=all:psychiatry+OR+all:therapy+OR+all:%22data+science%22+OR+cat:stat.ML&sortBy=submittedDate&sortOrder=descending&max_results=200",
+    url: "https://export.arxiv.org/api/query?search_query=all:psychiatry+OR+all:therapy+OR+all:%22data+science%22+OR+cat:stat.ML&sortBy=submittedDate&sortOrder=descending&max_results=200",
     type: "get",
     dataType: "xml",
     success: function (xml) {
@@ -41,7 +41,7 @@ export const getArticlesByAuthor = (author) => {
   author = author.replace(/ /g, "+");
   let deferred = $.Deferred();
   $.ajax({
-    url: `http://export.arxiv.org/api/query?search_query=au:%22${author}%22&sortBy=submittedDate&sortOrder=descending&max_results=200`,
+    url: `https://export.arxiv.org/api/query?search_query=au:%22${author}%22&sortBy=submittedDate&sortOrder=descending&max_results=200`,
     type: "get",
     dataType: "xml",
     success: function (xml) {
