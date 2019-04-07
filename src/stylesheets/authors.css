@@ -1,0 +1,24 @@
+.authors_title_name {
+  display: inline-block;
+  font-family: Acta;
+  font-size: 40px;
+  font-weight: 800;
+  border-bottom: 1px solid #f4ac45;
+  margin: 0 200px 0 100px;
+}
+
+.authors_title_sub {
+  display: inline-block;
+  font-family: Acta;
+  font-size: 40px;
+  font-weight: 800;
+  border-bottom: 1px solid #f4ac45;
+}
+
+.authors_item {
+  margin: 25px 0 25px 100px;
+  display: grid;
+  grid-template-columns: 600px 30%;
+  grid-template-rows: 1fr;
+  font-size: 20px;
+}

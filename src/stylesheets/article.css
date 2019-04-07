@@ -1,0 +1,14 @@
+.authors > a {
+  display: block;
+}
+
+.summary {
+  margin: 25px 50px;
+  font-size: 20px;
+  line-height: 1.3;
+  color: #666661;
+}
+
+.authors {
+  margin: 25px 0 0 50px;
+}

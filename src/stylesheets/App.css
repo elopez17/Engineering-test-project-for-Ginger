@@ -1,0 +1,54 @@
+h1, h2, h3 {
+  color: #f4ac45;
+  font-family: Alice;
+}
+
+.App > h1 {
+  text-align: start;
+  padding: 20px 60px;
+}
+
+.App > h1:hover {
+  cursor: pointer;
+}
+
+.App {
+  font-size: 16px;
+  font-family: Verb;
+}
+
+a {
+  color: #f4ac45;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.page_title {
+  font-family: Acta;
+  font-size: 40px;
+  font-weight: 800;
+  text-align: center;
+  color: #3b3c3d;
+}
+
+#home_btn {
+  position: absolute;
+  top: 40px;
+  right: 100px;
+  color: #f4ac45;
+  border: 1px solid #f4ac45;
+  border-radius: 2px;
+  font-family: sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 2.14;
+  letter-spacing: 0.7px;
+  transition: .5s ease;
+  padding: 8px 30px;
+  text-decoration: none;
+}
+
+#home_btn:hover {
+  background: #f4ac45;
+  color: white;
+}

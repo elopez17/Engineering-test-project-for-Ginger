@@ -1,0 +1,26 @@
+#landing {
+  text-align: center;
+}
+
+#landing > div {
+  color: #f4ac45;
+  font-size: 60px;
+  font-family: Alice;
+  font-weight: 300;
+  letter-spacing: -.5px;
+}
+
+#landing > a {
+  display: inline-block;
+  margin: 50px 50px;
+  padding: 15px 40px;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 2.14;
+  letter-spacing: 1px;
+  border-radius: 3px;
+  text-align: center;
+  color: white;
+  background: #f4ac45;
+  text-decoration: none;
+}
